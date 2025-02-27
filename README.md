@@ -1,23 +1,40 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
+## Getting Started
 
-The task: *Creating a website that speaks about Swahilipot Hub and making it look and work well.*
-Stack: *React Vite/Next.js Pages Router (Choose between Javascript and Typescript - whatever suits your team)*
+First, run the development server:
 
-## Instructions
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. Using a template (for inspiration or as a base for development), create a website with stunning UI that talks about Swahilipot Hub and all it is about.
-2. Observe Accessibility (to allow for the disabled to be able to use the website with ease)
-3. Use the same structure as that of the current website in terms of the pages, i.e. whatever pages are in the main website, have them in your project too.
-4. Use the images present in the website in your project. Nothing more will be provided for your project other than what is available there.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Key features that will be reviewed once the project is done
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-1. Performance: Is your website's loading times optimal?
-2. UI: Is the website good to the eye/appealing? Nothing too bright or too dull
-3. Accessibility: Can the website be used by people with disabilities?
-4. Collaboration: Did every team member play a part in the development of the project?
-5. Planning and Strategy: How did the team plan on development?
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-## Guidelines
-1. Every group should have a single repository from which all other members will contribute from (fork and contribute). The main repo should be of the group leader.
-2. Include all documentation in the main repository (using Markdown) and document well.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
